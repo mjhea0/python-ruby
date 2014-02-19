@@ -24,7 +24,7 @@ However, there are a number of differences ..
 
 ### The Python Way
 
-Open your terminal and open the Python shell then type `import this`:
+Open your terminal and enter the Python shell then type `import this`:
 
 ```sh
 >>> import this
