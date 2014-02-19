@@ -71,7 +71,7 @@ Finally, if shortened to one major point-
 
 ### The Ruby Way
 
-While Python values one main way of solving a problem, Ruby - influenced by Perl - provides the developer more freedom and power:
+While Python values one main way of solving a problem, Ruby - influenced by Perl - provides the developer with more freedom and power:
 
 *Ruby believes in empowering its programmers,giving them flexibility, freedom and power. But most of all, it believes in making programmer fun for its creator.*
 
