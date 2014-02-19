@@ -156,7 +156,7 @@ twit = Twitter.new
 
 In the first example (Python), we are importing the `Twitter()` class from the `twitter` library, while in the latter example (Ruby), we are simply importing the `twitter` library, giving us access to the entire library, not just the `Twitter()` class. So you can see that in Python, you import only what you need, nothing else. 
 
-
+![learning_curve](https://raw.github.com/mjhea0/python-ruby/master/python.png)
 
 #### Programming Paradigms
 
