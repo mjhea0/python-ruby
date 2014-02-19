@@ -1,5 +1,7 @@
 ## Should I Learn Python or Ruby?
 
+![pyvsrb](https://raw.github.com/mjhea0/python-ruby/master/pyvsrb.png)
+
 At first glance, Python and Ruby appear to be very similar languages. Both are high-level, [dynamic](http://en.wikipedia.org/wiki/Dynamic_programming_language) languages used for rapid development. What do I mean by dynamic?
 
 Well, with a dynamically typed language you can do this:
