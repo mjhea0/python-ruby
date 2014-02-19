@@ -128,7 +128,14 @@ Performance is a toss up as well. In some cases Python performs better, while in
 
 #### Usage
 
+Python can be used for web development, sys admin, statistics, and scientific computation. Meanwhile, Ruby is used primarily for web development. Python has the upper hand here, but if you are looking to *only* do web development, Ruby is the way to go.
+
+
 ### Extended Example
 
 ### Conclusion
+
+As you can tell, there's not too many differences in the languages. My advice: Try both. See which language you like better, then learn that one. After that, learn the other. 
+
+Cheers!
 
