@@ -137,7 +137,25 @@ As you can imagine, there are many more differences that just the syntax and phi
 
 #### Learning Curve
 
-Without a doubt, Python is much easier to learn because of how the language is structed. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby.
+Without a doubt, Python is much easier to learn because of how the language is structed - and how explicit it is. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
+
+You can see just how explicit Python is based on this example:
+
+```python
+from twitter import Twitter
+
+twit = Twitter()
+```
+
+```ruby
+require 'twitter'
+
+twit = Twitter.new
+```
+
+In the first example (Python), we are importing the `Twitter()` class from the `twitter` library, while in the latter example (Ruby), we are simply importing the `twitter` library, giving us access to the entire library, not just the `Twitter()` class. So you can see that in Python, you import only what you need, nothing else. 
+
+
 
 #### Programming Paradigms
 
@@ -161,6 +179,8 @@ Python wins. The community is active, vibrant, and truly helpful. Although, you 
 ### Conclusion
 
 As you can tell, there's not too many differences in the languages. My advice: Try both. See which language you like better, then learn that one. After that, learn the other. 
+
+Always, always, ALWAYS remember that no language can do it *all*. In other words, all languages have their positives and negatives
 
 Cheers!
 
