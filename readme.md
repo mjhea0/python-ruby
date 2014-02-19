@@ -110,6 +110,27 @@ def fib(n)
 end
 ```
 
+Keep in mind that in many cases in Python, there are a number of ways to do one thing. Take copying a list for example. There's a least four different ways:
+
+```python
+>>> my_list = [1,2,3]
+>>> my_new_list = my_list[:]
+>>> my_new_list
+[1, 2, 3]
+>>> my_new_list = list(my_list)
+>>> my_new_list
+[1, 2, 3]
+>>> from copy import copy
+>>> my_new_list = copy(my_list)
+>>> my_new_list
+[1, 2, 3]
+>>> my_new_list = [x for x in my_list]
+>>> my_new_list
+[1, 2, 3]
+```
+
+The difference is that there is one right way of doing this given the situation. The latter two probably are not the best to do since you have to use an extra library and list comprehensions can often be hard to read, respectively. The second example is the most readable, so that should probably be used in most situations.
+
 ### More differences
 
 As you can imagine, there are many more differences that just the syntax and philophies of the two languages. Let's quickly look at some examples.
