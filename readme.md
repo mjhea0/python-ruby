@@ -72,13 +72,13 @@ Finally, if shortened to one major point-
 
 While Python values one main way of solving a problem, Ruby - influenced by Perl - provides the developer more freedom and power:
 
-*Ruby believes in empowering its programmers,giving them flexibility, freedom and power. But most of all, it belives in making programmer fun for its creator.*
+*Ruby believes in empowering its programmers,giving them flexibility, freedom and power. But most of all, it believes in making programmer fun for its creator.*
 
 —Yukihiro Matsumoto (Matz)
 
-With more freedom and less syntactyical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good (or sexy as many Rubyists put it) - and be readable - depending on how it's coded or it can be a mess.
+With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good (or sexy as many Rubyists put it) - and be readable - depending on how it's coded or it can be a mess.
 
-Let's compare some code. The following snippets of code are for solving the Fibonnoci sequence:
+Let's compare some code. The following snippets of code are for solving the Fibonacci sequence:
 
 *Ruby:*
 
@@ -96,7 +96,7 @@ def fib(n):
         return fib(n-1) + fib(n-2)
 ```
 
-Although you can write this code in many ways, both of these methods are *true* to the language. In other words, the Ruby example is very Ruby-ish while the Python example is very Python-ish. Can you read the Ruby code? It may be more elegant, since it is on one line, but it's very hard to read. Meanwhile, I can easily follow the Python code. You of course can write code anyway you want. It's adviseable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
+Although you can write this code in many ways, both of these methods are *true* to the language. In other words, the Ruby example is very Ruby-ish while the Python example is very Pythonic. Can you read the Ruby code? It may be more elegant, since it is on one line, but it's very hard to read. Meanwhile, I can easily follow the Python code. You of course can write code anyway you want. It's advisable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
 
 ```ruby
 def fib(n)
@@ -133,11 +133,11 @@ The difference is that there is one right way of doing this given the situation.
 
 ### More differences
 
-As you can imagine, there are many more differences that just the syntax and philophies of the two languages. Let's quickly look at some examples.
+As you can imagine, there are many more differences that just the syntax and philosophies of the two languages. Let's quickly look at some examples.
 
 #### Learning Curve
 
-Without a doubt, Python is much easier to learn because of how the language is structed - and how explicit it is. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
+Without a doubt, Python is much easier to learn because of how the language is structured - and how explicit it is. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
 
 You can see just how explicit Python is based on this example:
 
@@ -163,7 +163,7 @@ Again, you can use the same paradigms in both languages (procedural, functional,
 
 #### Performance
 
-Performance is a toss up as well. In some cases Python performs better, while in other cases, Ruby outperfroms Python. It all depends on the task at hand.
+Performance is a toss up as well. In some cases Python performs better, while in other cases, Ruby outperforms Python. It all depends on the task at hand.
 
 #### Usage
 
@@ -175,6 +175,78 @@ Python wins. The community is active, vibrant, and truly helpful. Although, you 
 
 
 ### Extended Example
+
+Guessing game ...
+
+#### Python
+
+```python
+import random
+import os
+
+number = random.randint(1, 20)
+guesses = 0
+
+print 'Hello! What is your name?'
+name = raw_input()
+
+print "Hi, {}. I'm thinking of a number from 1 and 20.".format(name) 
+
+while guesses < 6:
+
+    print 'What is your guess. You have {} more guesses.'.format(6-guesses)
+    guess = raw_input()
+    guess = int(guess)
+
+    guesses = guesses + 1
+
+    if guess < number:
+        print 'Too low.'
+    elif guess > number:
+        print 'Too high.'
+    elif guess == number:
+        print 'Good job, {}! You guessed my number in {} guesses!'.format(name,guesses)
+        break
+
+if guess != number:
+    print 'Nope. The number I was thinking of was {}.'.format(number)
+```
+
+#### Ruby
+
+```ruby
+number = rand(1..20)
+guesses = 0
+
+puts 'Hello! What is your name?'
+name = gets.chomp.to_s
+
+puts "Hi, #{name}. I'm thinking of a number between 1 and 20." 
+
+while guesses < 6
+
+  puts "What is your guess? You have #{6-guesses} more guesses."
+  guess = gets.chomp.to_i
+  guesses += 1
+
+  unless guess == number
+    message = if guess > number
+                "Too high"
+              else
+                "Too low"
+              end
+    puts message
+  else
+    puts "Good job, #{name}! You guessed my number in #{guesses} guesses."
+    exit
+  end
+
+end
+
+puts "Nope. The number I was thinking of was #{number}."
+```
+
+What are the syntactical differences? Is the Python code Pythonic? Is the Ruby code Ruby-ish? Do either (or both) need to be refactored?
 
 ### Conclusion
 
