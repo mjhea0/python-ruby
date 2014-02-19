@@ -251,7 +251,7 @@ What are the syntactical differences? Is the Python code Pythonic? Is the Ruby c
 
 ### Conclusion
 
-As you can tell, there's not too many differences in the languages. My advice: Try both. See which language you like better, then learn that one. After that, learn the other. 
+As you can tell, there's not too many differences in the languages themselves. Yes, Python values readability, one method of doing things, and being explicit - but these are minor differences, in my opinion. It's more about the end goal. What are you trying to accomplish. My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other. 
 
 Always, always, ALWAYS remember that no language can do it *all*. In other words, all languages have their positives and negatives
 
