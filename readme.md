@@ -4,7 +4,7 @@ At first glance, Python and Ruby appear to be very similar languages. Both are h
 
 Well, with a dynamically typed language you can do this:
 
-```shell
+```sh
 >>> variable = 1
 >>> type(variable)
 <type 'int'>
@@ -26,7 +26,7 @@ However, there are a number of differences ..
 
 Open your terminal and open the Python shell then type `import this`:
 
-```shell
+```sh
 >>> import this
 The Zen of Python, by Tim Peters
 
@@ -68,14 +68,12 @@ Finally, if shortened to one major point-
 
 -we get to one of the main differences between Python and Ruby ..
 
-### The Python Way
+### The Ruby Way
 
-Ruby
+While Python values one main way of solving a problem, Ruby - influenced by Perl - provides the developer more freedom and power:
 
-Ruby inherited the Perl philosophy of having more than one way to do the same thing.
+*Ruby believes in empowering its programmers,giving them flexibility, freedom and power. But most of all, it belives in making programmer fun for its creator.*
 
-—Yukihiro Matsumoto (Matz) , The Philosophy of Ruby
+—Yukihiro Matsumoto (Matz)
 
-Matz summarizes it best, Ruby believes in empowering its programmers,giving them flexibility, freedom and power. But most of all, it belives in making programmer fun for its creator.
-
-As such it follows The Principle of Least Surprise and There is more than one way to do it. As such, ruby allows you to write concise and compact code, something you cannot do in python. However this also makes it really easy to end up with messy programs, something which happens very often for novice developers
+With more freedom and less syntactyical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code, which is hard for other developers to read.
