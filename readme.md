@@ -138,7 +138,7 @@ As you can imagine, there are many more differences that just the syntax and phi
 
 #### Learning Curve
 
-Without a doubt, Python is much easier to learn because of how the language is structured - and how explicit it is. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
+Without a doubt, Python is much easier to learn because of how the language is structured - and how **explicit** it is. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
 
 You can see just how explicit Python is based on this example:
 
@@ -251,7 +251,7 @@ What are the syntactical differences? Is the Python code Pythonic? Is the Ruby c
 
 ### Conclusion
 
-As you can tell, there's not too many differences in the languages themselves. Yes, Python values readability, one method of doing things, and being explicit - but these are minor differences, in my opinion. It's more about the end goal. What are you trying to accomplish. My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other. 
+As you can tell, there's not too many differences in the languages themselves. Yes, Python values **readability**, **one method of doing things**, and being **explicit** - but these are minor differences, in my opinion. It's more about the end goal. What are you trying to accomplish. My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other. 
 
 Always, always, ALWAYS remember that no language can do it *all*. In other words, all languages have their positives and negatives
 
