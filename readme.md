@@ -115,8 +115,17 @@ end
 As you can imagine, there are many more differences that just the syntax and philophies of the two languages. Let's quickly look at some examples.
 
 #### Learning Curve
+
+Without a doubt, Python is much easier to learn because of how the language is structed. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby.
+
 #### Programming Paradigms
+
+Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. Python has moved more towards true object orientation. This is a toss-up. Neither language has the upper hand, in other words.
+
 #### Performance
+
+Performance is a toss up as well. In some cases Python performs better, while in other cases, Ruby outperfroms Python. It all depends on the task at hand.
+
 #### Usage
 
 ### Extended Example
