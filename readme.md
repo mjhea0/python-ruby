@@ -64,7 +64,7 @@ Essentially, Pythonists value code readability and productivity over all else.
 
 Finally, if shortened to one major point-
 
-*There should be one – and preferably only one – obvious way to do it*
+**There should be one – and preferably only one – obvious way to do it**
 
 -we get to one of the main differences between Python and Ruby ..
 
@@ -76,4 +76,6 @@ While Python values one main way of solving a problem, Ruby - influenced by Perl
 
 —Yukihiro Matsumoto (Matz)
 
-With more freedom and less syntactyical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code, which is hard for other developers to read.
+With more freedom and less syntactyical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good - and be readable - depending on how it's coded or it can be a mess.
+
+
