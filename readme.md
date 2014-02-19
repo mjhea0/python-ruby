@@ -160,7 +160,7 @@ In the first example (Python), we are importing the `Twitter()` class from the `
 
 #### Programming Paradigms
 
-Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. Python has moved more towards true object orientation. This is a toss-up. Neither language has the upper hand, in other words.
+Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards true object orientation over the last few years. This is a toss-up. Neither language has the upper hand, in other words.
 
 #### Performance
 
