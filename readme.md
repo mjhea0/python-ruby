@@ -78,4 +78,35 @@ While Python values one main way of solving a problem, Ruby - influenced by Perl
 
 With more freedom and less syntactyical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good - and be readable - depending on how it's coded or it can be a mess.
 
+Let's compare some code. The following snippets of code are for solving the Fibonnoci sequence:
+
+*Ruby:*
+
+```ruby
+fib = Hash.new{ |h,k| h[k] = k < 2 ? k : h[k-1] + h[k-2] }
+```
+
+*Python:*
+
+```python
+def fib(n):
+    if n < 2:
+        return n
+    else:
+        return fib(n-1) + fib(n-2)
+```
+
+Although you can write this code in many ways, both of these methods are *true* to the language. In other words, the Ruby example is very Ruby-ish while the Python example is very Python-ish. Can you read the Ruby code? It may be more elegant, since it is on one line, but it's very hard to read. Meanwhile, I can easily follow the Python code. You of course can write code anyway you want. It's adviseable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
+
+```ruby
+def fib(n)
+  if n <= -2
+    (-1)**(n+1) * fib(n.abs)
+  elsif n <= 1
+    n.abs
+  else
+    fib(n-1) + fib(n-2)
+  end
+end
+```
 
