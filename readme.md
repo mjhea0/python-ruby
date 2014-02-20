@@ -88,7 +88,9 @@ Let's compare some code. The following snippets of code are for solving the Fibo
 *Ruby:*
 
 ```ruby
-fib = Hash.new{ |h,k| h[k] = k < 2 ? k : h[k-1] + h[k-2] }
+def fib(n)
+  n <= 2 ? 1 : fib(n-2) + fib(n-1) 
+end 
 ```
 
 *Python:*
