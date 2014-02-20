@@ -2,9 +2,9 @@
 
 ![pyvsrb](https://raw.github.com/mjhea0/python-ruby/master/pyvsrb.png)
 
-At first glance, Python and Ruby appear to be very similar languages. Both are high-level, [dynamic](http://en.wikipedia.org/wiki/Dynamic_programming_language) languages used for rapid development. What do I mean by dynamic?
+At first glance, Python and Ruby appear to be very similar languages. Both are high-level, [dynamic](http://en.wikipedia.org/wiki/Dynamic_programming_language) languages used for rapid development. Both are beautiful languages that, when done well, can be intuitive and be read much like English.
 
-Well, with a dynamically typed language you can do this:
+What do I mean by dynamic? Well, with a dynamically typed language you can do this:
 
 ```sh
 >>> variable = 1
@@ -75,11 +75,13 @@ Finally, if shortened to one major point-
 
 While Python values one main way of solving a problem, Ruby - influenced by Perl - provides the developer with more freedom and power:
 
-*Ruby believes in empowering its programmers, giving them flexibility, freedom and power. But most of all, it believes in making programmer fun for its creator.*
+*Ruby inherited the Perl philosophy of having more than one way to do the same thing. I inherited that philosophy from Larry Wall, who is my hero actually. I want to make Ruby users free. I want to give them the freedom to choose. People are different. People choose different criteria. But if there is a better way among many alternatives, I want to encourage that way by making it comfortable. So that’s what I’ve tried to do. Maybe Python code is a bit more readable. Everyone can write the same style of Python code, so it can be easier to read, maybe. But the difference from one person to the next is so big, providing only one way is little help even if you’re using Python, I think. I’d rather provide many ways if it’s possible, but encourage or guide users to choose a better way if it’s possible.*
 
-—Yukihiro Matsumoto (Matz)
+—Yukihiro Matsumoto (Matz) 
 
-With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good (or sexy as many Rubyists put it) - and be readable - depending on how it's coded or it can be a mess.
+Source: [http://www.artima.com/intv/rubyP.html](http://www.artima.com/intv/rubyP.html)
+
+With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good (or sexy as many Rubyists put it) - and be readable - depending on how it's coded or it can be a mess. 
 
 Let's compare some code. The following snippets of code are for solving the Fibonacci sequence:
 
@@ -103,10 +105,8 @@ Although you can write this code in many ways, both of these methods are *true* 
 
 ```ruby
 def fib(n)
-  if n <= -2
-    (-1)**(n+1) * fib(n.abs)
-  elsif n <= 1
-    n.abs
+  if n < 2
+      n
   else
     fib(n-1) + fib(n-2)
   end
@@ -170,7 +170,7 @@ Performance is a toss up as well. In some cases Python performs better, while in
 
 #### Usage
 
-Python can be used for web development, sys admin, statistics, and scientific computation. Meanwhile, Ruby is used primarily for web development. Python has the upper hand here, but if you are looking to *only* do web development, Ruby is the way to go.
+Python can be used for web development, sys admin, statistics, and scientific computation. Meanwhile, while Ruby can do all those things, it's used primarily for web development (Or: For learning Rails). Python has the upper hand here, but if you are looking to *only* do web development, Ruby is the way to go.
 
 #### Community
 
