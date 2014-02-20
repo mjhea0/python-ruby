@@ -28,7 +28,7 @@ However, there are a number of differences ..
 
 Open your terminal and enter the Python shell then type `import this`:
 
-```sh
+```
 >>> import this
 The Zen of Python, by Tim Peters
 
