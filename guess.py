@@ -1,5 +1,5 @@
 import random
-import os
+
 
 number = random.randint(1, 20)
 guesses = 0
