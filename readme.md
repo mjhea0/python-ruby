@@ -97,10 +97,7 @@ end
 
 ```python
 def fib(n):
-    if n < 2:
-        return n
-    else:
-        return fib(n-1) + fib(n-2)
+    return n if n < 2 else fib(n-1) + fib(n-2)
 ```
 
 Although you can write this code in many ways, both of these methods are *true* to the language. In other words, the Ruby example is very Ruby-ish while the Python example is very Pythonic. Can you read the Ruby code? It may be more elegant but it's a bit harder to read. Meanwhile, it's easy to follow the Python code, right? You of course can write code anyway you want. It's advisable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
