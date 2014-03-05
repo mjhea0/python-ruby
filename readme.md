@@ -180,7 +180,7 @@ Python can be used for web development, sys admin/DevOps, statistics, and scient
 
 The Python community is active, vibrant, and truly helpful. Although, you can say the same about the Ruby community, the community itself is very much tied into Rails. If Rails is your thing, then you are in luck.
 
-#### Popularity
+#### Popularity/Jobs
 
 ![popularity](https://raw.github.com/mjhea0/python-ruby/master/codeeval2014.jpg)
 
@@ -188,14 +188,25 @@ For the third year in a row, Python is the most popular language.
 
 Source: http://blog.codeeval.com/codeevalblog/2014#.Uxewd_SwL5g
 
-#### Jobs
+Excellent [article](http://techcrunch.com/2012/09/30/an-analysis-of-market-demand-for-web-programming-languages/) about jobs by programming language.
+
+Indeed:
+- [Python Jobs in SF](http://www.indeed.com/q-Python-l-San-Francisco-Bay-Area,-CA-jobs.html)
+- [Ruby Jobs in SF](http://www.indeed.com/jobs?q=Ruby&l=San+Francisco+Bay+Area%2C+CA)
+- [Rails Jobs in SF](http://www.indeed.com/jobs?q=rails&l=San+Francisco+Bay+Area%2C+CA)
 
 #### Average Salary
 
+1. [Rails Developer - SF](http://www.indeed.com/salary?q1=rails+developer&l1=san+francisco)
+2. [Django Developer - SF](http://www.indeed.com/salary?q1=django+developer&l1=san+francisco)
+
 #### Companies
 
+1. Python - Disqus, Dropbox, Yelp, Google, Reddit
+2. Ruby - Hulu, Twitter, Github, Airbnb
 
-### Extended Example
+
+### Extended Code Example (for further comparison)
 
 Guessing game ...
 
