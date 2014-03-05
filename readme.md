@@ -2,7 +2,7 @@
 
 ![pyvsrb](https://raw.github.com/mjhea0/python-ruby/master/pyvsrb.png)
 
-At first glance, Python and Ruby appear to be very similar languages. Both are high-level, [dynamic](http://en.wikipedia.org/wiki/Dynamic_programming_language) languages used for rapid development. Both are beautiful languages that, when done well, can be intuitive and be read much like English.
+At first glance, Python and Ruby appear to be very similar languages. Both are high-level, [dynamic](http://en.wikipedia.org/wiki/Dynamic_programming_language) languages used for rapid development. Both are beautiful languages that, when written well, are intuitive and can read much like English.
 
 What do I mean by dynamic? Well, with a dynamically typed language you can do this:
 
@@ -18,11 +18,13 @@ What do I mean by dynamic? Well, with a dynamically typed language you can do th
 <type 'list'>
 ```
 
-Essentially, I can change the datatype (from an integer to a string to a list, in the above example) at any point in a program. In a statically typed language, this would result in an error when compiled.
+Essentially, you can change the datatype (from an integer to a string to a list, in the above example) at any point in a program. In a statically typed language, this would result in an error when compiled.
 
 Both support multiple programming paradigms as well - e.g, procedural, functional, object oriented, and so forth.
 
 However, there are a number of differences ..
+
+> This article begins with the language structure, then moves toward detailing what you can do with the two languages. Although the differences are important, it's much more important to focus on your end goal - that is, what you want to accomplish with said language. More on this later.
 
 ### The Python Way
 
@@ -63,7 +65,7 @@ This is what is known as the [Zen of Python](http://www.python.org/dev/peps/pep-
 
 Essentially, Pythonists value code readability and productivity over all else. 
 
-> Check out [this](http://stackoverflow.com/questions/228181/the-zen-of-python) StackOverflow question to see examples of all the guidelines in use.
+> Check out [this](http://stackoverflow.com/questions/228181/the-zen-of-python) StackOverflow question to see examples of all the guidelines in use. Highly recommended read!
 
 Finally, if shortened to one major point-
 
@@ -81,7 +83,7 @@ While Python values one main way of solving a problem, Ruby - influenced by Perl
 
 Source: [http://www.artima.com/intv/rubyP.html](http://www.artima.com/intv/rubyP.html)
 
-With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good (or sexy as many Rubyists put it) - and be readable - depending on how it's coded or it can be a mess. 
+With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good and be readable, depending on how it's coded - or it can be a mess. 
 
 Let's compare some code. The following snippets of code are for solving the Fibonacci sequence:
 
@@ -115,7 +117,7 @@ def fib(n)
 end
 ```
 
-Keep in mind that in many cases in Python, there are a number of ways to do one thing. Take copying a list for example. There's a least four different ways:
+Keep in mind that in many cases with Python there are still a number of ways to do one thing. Take copying a list for example. There's a least four different ways:
 
 ```python
 >>> my_list = [1,2,3]
@@ -142,7 +144,7 @@ As you can imagine, there are many more differences that just the syntax and phi
 
 #### Learning Curve
 
-Without a doubt, Python is much easier to learn because of how the language is structured - and how **explicit** it is. One can literally become proficient in less than two months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
+Without a doubt, Python is much easier to learn because of how the language is structured - and how **explicit** it is. One can literally become proficient in two to three months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
 
 You can see just how explicit Python is based on this example:
 
@@ -164,7 +166,7 @@ In the first example (Python), we are importing the `Twitter()` class from the `
 
 #### Programming Paradigms
 
-Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards true object orientation over the last few years. This is a toss-up. Neither language has the upper hand, in other words.
+Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards being a true object orientated language over the last few years. This is a toss-up. Neither language has the upper hand, in other words.
 
 #### Performance
 
@@ -172,11 +174,19 @@ Performance is a toss up as well. In some cases Python performs better, while in
 
 #### Usage
 
-Python can be used for web development, sys admin, statistics, and scientific computation. Meanwhile, while Ruby can do all those things, it's used primarily for web development (Or: For learning Rails). Python has the upper hand here, but if you are looking to *only* do web development, Ruby is the way to go.
+Python can be used for web development, sys admin/DevOps, statistics, and scientific computation. Meanwhile, while Ruby can do all those things, it's used primarily for web development. Or, more prociesely: learning Rails. Ruby is also particullary strong in sys admin and DevOps as well. 
 
 #### Community
 
-Python wins. The community is active, vibrant, and truly helpful. Although, you can say the same about the Ruby community, the community itself is very much tied into Rails. If Rails is your thing, then you are in luck.
+The Python community is active, vibrant, and truly helpful. Although, you can say the same about the Ruby community, the community itself is very much tied into Rails. If Rails is your thing, then you are in luck.
+
+#### Popularity
+
+#### Jobs
+
+#### Average Salary
+
+#### Companies
 
 
 ### Extended Example
@@ -255,7 +265,7 @@ What are the syntactical differences? Is the Python code Pythonic? Is the Ruby c
 
 ### Conclusion
 
-As you can tell, there's not too many differences in the languages themselves. Yes, Python values **readability**, **one method of doing things**, and being **explicit** - but these are minor differences, in my opinion. It's more about the end goal. What are you trying to accomplish. My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other. 
+As you can tell, there's not too many differences in the languages themselves. Yes, Python values **readability**, **one method of doing things**, and being **explicit** - but these are minor differences. It's more about the end goal. What are you trying to accomplish? My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other. 
 
 Always, always, ALWAYS remember that no language can do it *all*. In other words, all languages have their positives and negatives
 
