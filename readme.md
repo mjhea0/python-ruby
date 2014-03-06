@@ -174,7 +174,7 @@ Performance is a toss up as well. In some cases Python performs better, while in
 
 #### Usage
 
-Python can be used for web development, sys admin/DevOps, statistics, and scientific computation. Meanwhile, while Ruby can do all those things, it's used primarily for web development. Or, more prociesely: learning Rails. Ruby is also particullary strong in sys admin and DevOps as well. 
+Ruby has a bigger web presence with Rails than Python does with Django, so if you're looking to move into web development, Ruby may be the way to go. Python is a great general-purpose language and has more montemum going for it for areas outside outside of the web, such as sys admin/DevOps, statistics, and scientific computation.
 
 #### Community
 
