@@ -138,6 +138,15 @@ Keep in mind that in many cases with Python there are still a number of ways to 
 
 The difference is that there is one right way of doing this given the situation. The latter two probably are not the best to do since you have to use an extra library and list comprehensions can often be hard to read, respectively. The second example is the most readable, so that should probably be used in most situations.
 
+Oh - And you can also write the above Fibonacci code in Python in a more Ruby-like manner:
+
+```python
+def fib(n):
+    return n if n < 2 else fib(n-1) + fib(n-2)
+```
+
+(Some would probably argue that this is more Pythonic than the above Python example.)
+
 ### More differences
 
 As you can imagine, there are many more differences that just the syntax and philosophies of the two languages. Let's quickly look at some examples.
