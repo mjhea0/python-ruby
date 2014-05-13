@@ -297,3 +297,8 @@ Always, always, ALWAYS remember that no language can do it *all*. In other words
 
 Cheers!
 
+### Resources
+
+1. [Why I push for Python](http://lorenabarba.com/blog/why-i-push-for-python/)
+2. [4 Reasons Why You Should Learn Ruby As Your First Programming Language](http://www.skilledup.com/learn/programming/4-reasons-learn-ruby-first-programming-language/)
+
