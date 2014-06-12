@@ -63,7 +63,7 @@ This is what is known as the [Zen of Python](http://www.python.org/dev/peps/pep-
 4. Complex is better than complicated.
 5. Readability counts.
 
-Essentially, Pythonists value code readability and productivity over all else. 
+Essentially, Pythonists value code readability and productivity over all else.
 
 > Check out [this](http://stackoverflow.com/questions/228181/the-zen-of-python) StackOverflow question to see examples of all the guidelines in use. Highly recommended read!
 
@@ -79,11 +79,11 @@ While Python values one main way of solving a problem, Ruby - influenced by Perl
 
 *Ruby inherited the Perl philosophy of having more than one way to do the same thing. I inherited that philosophy from Larry Wall, who is my hero actually. I want to make Ruby users free. I want to give them the freedom to choose. People are different. People choose different criteria. But if there is a better way among many alternatives, I want to encourage that way by making it comfortable. So that’s what I’ve tried to do. Maybe Python code is a bit more readable. Everyone can write the same style of Python code, so it can be easier to read, maybe. But the difference from one person to the next is so big, providing only one way is little help even if you’re using Python, I think. I’d rather provide many ways if it’s possible, but encourage or guide users to choose a better way if it’s possible.*
 
-—Yukihiro Matsumoto (Matz) 
+—Yukihiro Matsumoto (Matz)
 
 Source: [http://www.artima.com/intv/rubyP.html](http://www.artima.com/intv/rubyP.html)
 
-With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good and be readable, depending on how it's coded - or it can be a mess. 
+With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. But you can also often see messy code (especially from beginners) that can be difficult for other developers to read. For example, you can put multiple statements on one line. This can look good and be readable, depending on how it's coded - or it can be a mess.
 
 Let's compare some code. The following snippets of code are for solving the Fibonacci sequence:
 
@@ -91,8 +91,8 @@ Let's compare some code. The following snippets of code are for solving the Fibo
 
 ```ruby
 def fib(n)
-  n <= 2 ? 1 : fib(n-2) + fib(n-1) 
-end 
+  n <= 2 ? 1 : fib(n-2) + fib(n-1)
+end
 ```
 
 *Python:*
@@ -153,7 +153,7 @@ As you can imagine, there are many more differences that just the syntax and phi
 
 #### Learning Curve
 
-Without a doubt, Python is much easier to learn because of how the language is structured - and how **explicit** it is. One can literally become proficient in two to three months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby. 
+Without a doubt, Python is much easier to learn because of how the language is structured - and how **explicit** it is. One can literally become proficient in two to three months. Ruby takes much longer to learn due to its flexibility. Beneath the elegant surface, there's a lot of magic happening. It takes a while to grasp exactly what is happening. It can take upwards of six months to become proficient in Ruby.
 
 You can see just how explicit Python is based on this example:
 
@@ -169,7 +169,7 @@ require 'twitter'
 twit = Twitter.new
 ```
 
-In the first example (Python), we are importing the `Twitter()` class from the `twitter` library, while in the latter example (Ruby), we are simply importing the `twitter` library, giving us access to the entire library, not just the `Twitter()` class. So you can see that in Python, you import only what you need, nothing else. 
+In the first example (Python), we are importing the `Twitter()` class from the `twitter` library, while in the latter example (Ruby), we are simply importing the `twitter` library, giving us access to the entire library, not just the `Twitter()` class. So you can see that in Python, you import only what you need, nothing else.
 
 ![learning_curve](https://raw.github.com/mjhea0/python-ruby/master/python.png)
 
@@ -231,7 +231,7 @@ guesses = 0
 print 'Hello! What is your name?'
 name = raw_input()
 
-print "Hi, {}. I'm thinking of a number from 1 and 20.".format(name) 
+print "Hi, {}. I'm thinking of a number from 1 and 20.".format(name)
 
 while guesses < 6:
 
@@ -262,7 +262,7 @@ guesses = 0
 puts 'Hello! What is your name?'
 name = gets.chomp.to_s
 
-puts "Hi, #{name}. I'm thinking of a number between 1 and 20." 
+puts "Hi, #{name}. I'm thinking of a number between 1 and 20."
 
 while guesses < 6
 
@@ -291,7 +291,7 @@ What are the syntactical differences? Is the Python code Pythonic? Is the Ruby c
 
 ### Conclusion
 
-As you can tell, there's not too many differences in the languages themselves. Yes, Python values **readability**, **one method of doing things**, and being **explicit** - but these are minor differences. It's more about the end goal. What are you trying to accomplish? My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other. 
+As you can tell, there's not too many differences in the languages themselves. Yes, Python values **readability**, **one method of doing things**, and being **explicit** - but these are minor differences. It's more about the end goal. What are you trying to accomplish? My advice: Try both languages. See which language you like better, then learn that one. After that, learn the other.
 
 Always, always, ALWAYS remember that no language can do it *all*. In other words, all languages have their positives and negatives
 
@@ -302,4 +302,5 @@ Cheers!
 1. [Why I push for Python](http://lorenabarba.com/blog/why-i-push-for-python/)
 2. [4 Reasons Why You Should Learn Ruby As Your First Programming Language](http://www.skilledup.com/learn/programming/4-reasons-learn-ruby-first-programming-language/)
 3. [How do Python and Ruby compare?](http://www.quora.com/How-do-Python-and-Ruby-compare/answer/Fabio-Akita?share=1)
+4. [Why Python is a Great First Language](http://blog.trinket.io/why-python/)
 
