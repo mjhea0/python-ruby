@@ -185,6 +185,20 @@ Performance is a toss up as well. In some cases Python performs better, while in
 
 Ruby has a bigger web presence with Rails than Python does with Django, so if you're looking to move into web development, Ruby may be the way to go. Python is a great general-purpose language and has more montemum going for it for areas outside outside of the web, such as sys admin/DevOps, statistics, and scientific computation.
 
+That said, take a look at the two code snippets below -
+
+```python
+print "Hello, World!"
+```
+
+and
+
+```ruby
+puts 'Hello, world!'
+```
+
+End users do not care about the syntactical differences; they just want to see "Hello, World!" outputed on their screen. Think about this site that you're reading this post on now. Do you really care of it's Ruby/Rails-based or Python/Django-based? I imagine you just want to be able to read this post. So, if you want to go into web development, worry less about the back-end langauge. Learn one, then get really good at. Then go learn JavaScript.
+
 #### Community
 
 The Python community is active, vibrant, and truly helpful. Although, you can say the same about the Ruby community, the community itself is very much tied into Rails. If Rails is your thing, then you are in luck.
