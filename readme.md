@@ -317,4 +317,5 @@ Cheers!
 2. [4 Reasons Why You Should Learn Ruby As Your First Programming Language](http://www.skilledup.com/learn/programming/4-reasons-learn-ruby-first-programming-language/)
 3. [How do Python and Ruby compare?](http://www.quora.com/How-do-Python-and-Ruby-compare/answer/Fabio-Akita?share=1)
 4. [Why Python is a Great First Language](http://blog.trinket.io/why-python/)
+5. [Python vs Ruby](http://www.scriptrock.com/articles/python-vs-ruby)
 
