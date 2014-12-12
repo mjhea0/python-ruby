@@ -318,4 +318,5 @@ Cheers!
 3. [How do Python and Ruby compare?](http://www.quora.com/How-do-Python-and-Ruby-compare/answer/Fabio-Akita?share=1)
 4. [Why Python is a Great First Language](http://blog.trinket.io/why-python/)
 5. [Python vs Ruby](http://www.scriptrock.com/articles/python-vs-ruby)
+6. [Ruby on Rails vs Python and Django: Which Should a Beginner Learn?](https://www.coursereport.com/resources/ruby-on-rails-vs-python-and-django-which-should-a-beginner-learn)
 
