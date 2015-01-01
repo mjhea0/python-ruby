@@ -319,4 +319,5 @@ Cheers!
 4. [Why Python is a Great First Language](http://blog.trinket.io/why-python/)
 5. [Python vs Ruby](http://www.scriptrock.com/articles/python-vs-ruby)
 6. [Ruby on Rails vs Python and Django: Which Should a Beginner Learn?](https://www.coursereport.com/resources/ruby-on-rails-vs-python-and-django-which-should-a-beginner-learn)
+7. [Python Environment Management for Rubyists – a Guide](http://spin.atomicobject.com/2015/01/02/python-environment-mgmt/)
 
