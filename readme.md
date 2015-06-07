@@ -205,7 +205,7 @@ The Python community is active, vibrant, and truly helpful. Although, you can sa
 
 #### Popularity/Jobs
 
-![popularity](https://raw.github.com/mjhea0/python-ruby/master/imagescodeeval2015.jpg)
+![popularity](https://raw.github.com/mjhea0/python-ruby/master/images/codeeval2015.jpg)
 
 For the fourth year in a row, Python is the most popular language. Also, notice how Ruby decreased in popularity:
 
