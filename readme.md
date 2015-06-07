@@ -1,6 +1,6 @@
 ## Should I Learn Python or Ruby?
 
-![pyvsrb](https://raw.github.com/mjhea0/python-ruby/master/pyvsrb.png)
+![pyvsrb](https://raw.githubusercontent.com/mjhea0/python-ruby/master/images/pyvsrb.png)
 
 At first glance, Python and Ruby appear to be very similar languages. Both are high-level, [dynamic](http://en.wikipedia.org/wiki/Dynamic_programming_language) languages used for rapid development. Both are beautiful languages that, when written well, are intuitive and can read much like English.
 
@@ -171,7 +171,7 @@ twit = Twitter.new
 
 In the first example (Python), we are importing the `Twitter()` class from the `twitter` library, while in the latter example (Ruby), we are simply importing the `twitter` library, giving us access to the entire library, not just the `Twitter()` class. So you can see that in Python, you import only what you need, nothing else.
 
-![learning_curve](https://raw.github.com/mjhea0/python-ruby/master/python.png)
+![learning_curve](https://raw.github.com/mjhea0/python-ruby/master/images/python.png)
 
 #### Programming Paradigms
 
@@ -205,9 +205,11 @@ The Python community is active, vibrant, and truly helpful. Although, you can sa
 
 #### Popularity/Jobs
 
-![popularity](https://raw.github.com/mjhea0/python-ruby/master/codeeval2014.jpg)
+![popularity](https://raw.github.com/mjhea0/python-ruby/master/imagescodeeval2015.jpg)
 
-For the third year in a row, Python is the most popular language.
+For the fourth year in a row, Python is the most popular language. Also, notice how Ruby decreased in popularity:
+
+![popularity](https://raw.github.com/mjhea0/python-ruby/master/images/codeeval2014.jpg)
 
 Source: http://blog.codeeval.com/codeevalblog/2014#.Uxewd_SwL5g
 
