@@ -65,7 +65,7 @@ This is what is known as the [Zen of Python](http://www.python.org/dev/peps/pep-
 
 Essentially, Pythonists value code readability and productivity over all else.
 
-> Check out [this](http://stackoverflow.com/questions/228181/the-zen-of-python) StackOverflow question to see examples of all the guidelines in use. Highly recommended read!
+> Check out [this](http://www.slideshare.net/doughellmann/an-introduction-to-the-zen-of-python) Slideshare to see examples of all the guidelines in use. Highly recommended!
 
 Finally, if shortened to one major point-
 
@@ -183,7 +183,7 @@ Performance is a toss up as well. In some cases Python performs better, while in
 
 #### Usage
 
-Ruby has a bigger web presence with Rails than Python does with Django, so if you're looking to move into web development, Ruby may be the way to go. Python is a great general-purpose language and has more montemum going for it for areas outside outside of the web, such as sys admin/DevOps, statistics, and scientific computation.
+Ruby has a bigger web presence with Rails than Python does with Django, so if you're looking to move into web development, Ruby may be the way to go. Python is a great general-purpose language and has more momentum going for it for areas outside outside of the web, such as sys admin/DevOps, statistics, and scientific computation.
 
 That said, take a look at the two code snippets below -
 
@@ -197,7 +197,7 @@ and
 puts 'Hello, world!'
 ```
 
-End users do not care about the syntactical differences; they just want to see "Hello, World!" outputed on their screen. Think about this site that you're reading this post on now. Do you really care of it's Ruby/Rails-based or Python/Django-based? I imagine you just want to be able to read this post. So, if you want to go into web development, worry less about the back-end langauge. Learn one, then get really good at. Then go learn JavaScript.
+End users do not care about the syntactical differences; they just want to see "Hello, World!" outputted on their screen. Think about this site that you're reading this post on now. Do you really care of it's Ruby/Rails-based or Python/Django-based? I imagine you just want to be able to read this post. So, if you want to go into web development, worry less about the back-end language. Learn one, then get really good at. Then go learn JavaScript.
 
 #### Community
 
@@ -322,4 +322,3 @@ Cheers!
 5. [Python vs Ruby](http://www.scriptrock.com/articles/python-vs-ruby)
 6. [Ruby on Rails vs Python and Django: Which Should a Beginner Learn?](https://www.coursereport.com/resources/ruby-on-rails-vs-python-and-django-which-should-a-beginner-learn)
 7. [Python Environment Management for Rubyists – a Guide](http://spin.atomicobject.com/2015/01/02/python-environment-mgmt/)
-
