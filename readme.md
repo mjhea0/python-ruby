@@ -85,10 +85,11 @@ Source: [http://www.artima.com/intv/rubyP.html](http://www.artima.com/intv/rubyP
 
 With more freedom and less syntactical rules, many Rubyists believe that Ruby is a much more elegant language - and it is. Also, while Python focuses on simplicity, Ruby focuses on making the programmer happy, while this tends to be true and people can make truly beautiful programs, you can also often see messy code (especially from beginners) that can be difficult for other developers to read( or even themselves in a not so distant future). For example, you can put multiple statements on one line. This can look good and be readable, depending on how it's coded - or it can be a mess.
 
-###The principle of least astonishment
+### The principle of least astonishment
 
-One princpiple very present in the design of Ruby is the principle of least astonishment, it's basically about the language working the way you think it should, thinks like using a function with a strange name will leave you astonished, and will make you look in the documentation.
-In order to behave like this Ruby tends to do things like having the same functions with different names,however some people would argue this is confusing for beginners. Also, Python , although not having this principle in mind when making the language, also behaves quite like this by make pretty much everything work in a standard way, however one could say this only benefits advanced Python users.
+One principle very present in the design of Ruby is the [principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - the language working the way you think it should.
+
+In order to behave like this Ruby tends to do things like having the same functions with different names, which can be confusing for beginners. Although Python does not have this principle in mind when making the language, it also behaves quite like this by make pretty much everything work in a standard way. One could argue that this only benefits advanced Python users, though.
 
 
 Let's compare some code. The following snippets of code are for solving the Fibonacci sequence:
@@ -97,8 +98,8 @@ Let's compare some code. The following snippets of code are for solving the Fibo
 
 ```ruby
 def fib(n)
-	return  n  if n < 2
-  	fib(n-1) + fib(n-2)
+    return  n  if n < 2
+    fib(n-1) + fib(n-2)
 end
 alias :fibonacci :fib
 ```
@@ -113,7 +114,11 @@ def fib(n):
         return fib(n-1) + fib(n-2)
 ```
 
-Although you can write this code in many ways, both of these methods are *true* to the language, Ruby code demonstrates the practice of having multiple names for the same function (fib and fibonacci are the same). In other words, the Ruby example is very Ruby-ish while the Python example is very Pythonic. Can you read the Ruby code? It may be more elegant but it's a bit harder to read. Meanwhile, it's easy to follow the Python code, right? You of course can write code anyway you want. It's advisable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
+Although you can write this code in many ways, both of these methods are *true* to the language.
+
+> The Ruby code demonstrates the practice of having multiple names for the same function (`fib` and `fibonacci` are the same).
+
+In other words, the Ruby example is very Ruby-ish while the Python example is very Pythonic. Can you read the Ruby code? It may be more elegant but it's a bit harder to read. Meanwhile, it's easy to follow the Python code, right? You of course can write code anyway you want. It's advisable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
 
 ```ruby
 def fib(n)
@@ -174,7 +179,7 @@ In the first example (Python), we are importing the `Twitter()` class from the `
 
 #### Programming Paradigms
 
-Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards being a true object orientated language over the last few years. However, Ruby has one advantage, Ruby can add methods to existing classes, Python by default can't do this (although it's possible with the use of a external library)
+Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards being a true object orientated language over the last few years. However, Ruby has one advantage, Ruby can add methods to existing classes, Python by default can't do this (although it's possible with the use of external libraries).
 
 #### Performance
 
