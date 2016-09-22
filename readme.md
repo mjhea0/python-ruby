@@ -327,3 +327,4 @@ Cheers!
 1. [Ruby on Rails vs Python and Django: Which Should a Beginner Learn?](https://www.coursereport.com/resources/ruby-on-rails-vs-python-and-django-which-should-a-beginner-learn)
 1. [Python Environment Management for Rubyists – a Guide](http://spin.atomicobject.com/2015/01/02/python-environment-mgmt/)
 1. [Ruby vs Python](https://www.coursereport.com/blog/ruby-vs-python-choosing-your-first-programming-language)
+1. [Ruby vs Python, the Definitive FAQ](https://hackernoon.com/ruby-vs-python-the-definitive-faq-5cb0046292be)
