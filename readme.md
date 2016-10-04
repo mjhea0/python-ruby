@@ -98,8 +98,7 @@ Let's compare some code. The following snippets of code are for solving the Fibo
 
 ```ruby
 def fib(n)
-    return  n  if n < 2
-    fib(n-1) + fib(n-2)
+    n < 2 ? n : fib(n-1) + fib(n-2)
 end
 alias :fibonacci :fib
 ```
@@ -116,7 +115,7 @@ def fib(n):
 
 Although you can write this code in many ways, both of these methods are *true* to the language.
 
-> The Ruby code demonstrates the practice of having multiple names for the same function (`fib` and `fibonacci` are the same).
+> The Ruby code demonstrates the practices of using ternary operators and of having multiple names for the same function (`fib` and `fibonacci` are the same).
 
 In other words, the Ruby example is very Ruby-ish while the Python example is very Pythonic. Can you read the Ruby code? It may be more elegant but it's a bit harder to read. Meanwhile, it's easy to follow the Python code, right? You of course can write code anyway you want. It's advisable to write Ruby code, when beginning, in a more Pythonic way - which simply means making it more readable:
 
