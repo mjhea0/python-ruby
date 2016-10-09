@@ -129,7 +129,7 @@ def fib(n)
 end
 ```
 
-Keep in mind that in many cases with Python there are still a number of ways to do one thing. Take copying a list for example. There's a least four different ways:
+Keep in mind that in many cases with Python there are still a number of ways to do one thing. Take copying a list for example. There are at least four different ways:
 
 ```python
 >>> my_list = [1,2,3]
@@ -178,15 +178,15 @@ In the first example (Python), we are importing the `Twitter()` class from the `
 
 #### Programming Paradigms
 
-Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards being a true object orientated language over the last few years. However, Ruby has one advantage, Ruby can add methods to existing classes, Python by default can't do this (although it's possible with the use of external libraries).
+Again, you can use the same paradigms in both languages (procedural, functional, object oriented ...). When it comes to object oriented programming, Ruby used to have the upper hand, as it was built specifically for object orientation. That said, Python has moved more towards being a true object orientated language over the last few years. However, Ruby has one advantage: it can add methods to existing classes, while Python by default can't do this (although it's possible with the use of external libraries).
 
 #### Performance
 
-Performance is a toss up as well. In some cases Python performs better, while in other cases, Ruby outperforms Python. It all depends on the task at hand.
+Performance is a toss up as well. In some cases Python performs better, while in others Ruby outperforms Python. It all depends on the task at hand.
 
 #### Usage
 
-Ruby has a bigger web presence with Rails than Python does with Django, so if you're looking to move into web development, Ruby may be the way to go. Python is a great general-purpose language and has more momentum going for it for areas outside outside of the web, such as sys admin/DevOps, statistics, and scientific computation.
+Ruby has a bigger web presence with Rails than Python does with Django, so if you're looking to move into web development, Ruby may be the way to go. Python is a great general-purpose language and has more momentum going for it for areas outside of the web, such as sys admin/DevOps, statistics, and scientific computation.
 
 That said, take a look at the two code snippets below -
 
@@ -204,7 +204,7 @@ End users do not care about the syntactical differences; they just want to see "
 
 #### Community
 
-The Python community is active, vibrant, and truly helpful. Although, you can say the same about the Ruby community, the community itself is very much tied into Rails. If Rails is your thing, then you are in luck.
+The Python community is active, vibrant, and truly helpful. Although you can say the same about the Ruby community, the community itself is very much tied into Rails. If Rails is your thing, then you are in luck.
 
 #### Popularity/Jobs
 
