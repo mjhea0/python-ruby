@@ -107,10 +107,7 @@ alias :fibonacci :fib
 
 ```python
 def fib(n):
-    if n < 2:
-        return n
-    else:
-        return fib(n-1) + fib(n-2)
+    return n if n < 2 else fib(n-1) + fib(n-2)
 ```
 
 Although you can write this code in many ways, both of these methods are *true* to the language.
