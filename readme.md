@@ -209,6 +209,7 @@ The Python community is active, vibrant, and truly helpful. Although you can say
 #### Popularity/Jobs
 
 ![popularity](https://static1.squarespace.com/static/51361f2fe4b0f24e710af7ae/t/56b1187d4c2f85efc5598bb1/1454446752995/?format=750w)
+
 Source: http://blog.codeeval.com/codeevalblog/2016/2/2/most-popular-coding-languages-of-2016
 
 
