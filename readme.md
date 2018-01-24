@@ -152,7 +152,7 @@ The difference is that there is one right way of doing this given the situation.
 
 ### More differences
 
-As you can imagine, there are many more differences that just the syntax and philosophies of the two languages. Let's quickly look at some examples.
+As you can imagine, there are many more differences than just the syntax and philosophies of the two languages. Let's quickly look at some examples.
 
 #### Learning Curve
 
