@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 number = rand(1..20)
 
 puts 'Hello! What is your name?'
