@@ -255,11 +255,10 @@ guesses = 0
 print('Hello! What is your name?')
 name = input()
 
-print("Hi, {}. I'm thinking of a number from 1 and 20.".format(name))
+print(f"Hi, {name}. I'm thinking of a number from 1 and 20.")
 
 while guesses < 6:
-
-    print('What is your guess. You have {} more guesses.'.format(6-guesses))
+    print(f'What is your guess? You have {6 - guesses} more guesses.')
     guess = input()
     guess = int(guess)
 
@@ -270,11 +269,11 @@ while guesses < 6:
     elif guess > number:
         print('Too high.')
     elif guess == number:
-        print('Good job, {}! You guessed my number in {} guesses!'.format(name,guesses))
+        print(f'Good job, {name}! You guessed my number in {guesses} guesses!')
         break
 
 if guess != number:
-    print('Nope. The number I was thinking of was {}.'.format(number))
+    print(f'Nope. The number I was thinking of was {number}.')
 ```
 
 #### Ruby
